@@ -1,4 +1,3 @@
-```ruby
 class YourTool < Formula
   desc "tosutil is a command-line tool for accessing and managing TOS(Torch Object Storage) resource in the volcengine"
   homepage "https://www.volcengine.com/docs/6349/148775?lang=en"
@@ -20,4 +19,3 @@ class YourTool < Formula
     system "#{bin}/tosutil", "version"
   end
 end
-```
